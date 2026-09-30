@@ -31,6 +31,9 @@ python run_pipeline.py
 ## Results
 
 Tested end-to-end across 6 real image pairs: 3 ESCALATE / 2 AUTO_CLEAR / 1 FLAG_FOR_REVIEW, verified with real Anthropic API calls. See `report.pdf` for the full case-by-case breakdown.
+**Inspector dashboard wireframe (low-fidelity mockup):**
+
+![Dashboard wireframe](dashboard_wireframe.png)
 
 ## Author
 
