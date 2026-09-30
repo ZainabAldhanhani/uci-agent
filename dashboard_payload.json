@@ -1,0 +1,62 @@
+[
+  {
+    "pair_id": "test_2_0000_0000",
+    "final_decision": "ESCALATE",
+    "confidence": 98,
+    "change_description": "The land transformed from an undeveloped, sparsely wooded area with bare soil and scattered trees into a residential subdivision featuring multiple new houses, paved roads, driveways, and landscaped lots.",
+    "change_severity": "major",
+    "environmental_notes": "Significant vegetation and tree cover was clearly lost, with natural scrubland and woodland converted to a residential subdivision featuring multiple homes, roads, and paved surfaces. This represents a near-complete transformation of undeveloped land to hardened urban surfaces, though this is a rough visual estimate based on satellite imagery alone.",
+    "environmental_severity": "high",
+    "reason": "A major unauthorized residential subdivision has been constructed with no permit of any kind on file, representing large-scale illegal development requiring immediate escalation."
+  },
+  {
+    "pair_id": "test_55_0256_0000",
+    "final_decision": "AUTO_CLEAR",
+    "confidence": 91,
+    "change_description": "Several new residential buildings and structures have been constructed in the previously undeveloped land in the center and right portions of the image. The road network has also been extended with new cul-de-sacs and connecting streets to service the new housing development.",
+    "change_severity": "major",
+    "environmental_notes": "Visually, the after image shows increased building footprints and expanded road/pavement coverage replacing what appeared to be undeveloped or lightly vegetated land, indicating continued residential development and conversion of natural land to hardened surfaces. This is a rough visual estimate, but tree/vegetation cover appears modestly reduced and impervious surface has notably increased.",
+    "environmental_severity": "moderate",
+    "reason": "The detected change involves major residential construction with road network expansion, which aligns directly with the approved new_construction permit (PARCEL-9902) for residential use issued in 2021."
+  },
+  {
+    "pair_id": "test_102_0512_0000",
+    "final_decision": "FLAG_FOR_REVIEW",
+    "confidence": 72,
+    "change_description": "A large commercial/industrial warehouse or distribution building was constructed on the previously vacant, undeveloped land. The development also includes a substantial parking lot, access roads, and associated infrastructure surrounding the building.",
+    "change_severity": "major",
+    "environmental_notes": "The before image shows largely bare/scrubby undeveloped land with minimal vegetation, which has been converted to a large warehouse building with extensive parking and pavement in the after image; vegetation loss appears minimal given the already sparse cover, but significant soil sealing and impervious surface creation has occurred. This is a rough visual estimate based on satellite imagery alone.",
+    "environmental_severity": "moderate",
+    "reason": "A new construction permit application is on file for commercial use on this parcel, which aligns with the detected warehouse development, but the permit status is still pending with no issue date, meaning construction has begun without an approved permit."
+  },
+  {
+    "pair_id": "test_77_0512_0256",
+    "final_decision": "AUTO_CLEAR",
+    "confidence": 92,
+    "change_description": "The parcel underwent significant development, transforming from a graded/compacted earthen area (likely a prepared construction site or landfill slope) into a large commercial or industrial building complex with multiple white-roofed structures, parking areas, and paved roadways.",
+    "change_severity": "major",
+    "environmental_notes": "The before image shows a large graded/compacted earthen area with minimal vegetation, and the after image shows significant construction of buildings and paved surfaces; while some undeveloped land was converted to hardened surfaces, the before image already had very little natural vegetation or tree cover. This is a rough visual estimate suggesting moderate land surface hardening but limited loss of ecologically significant vegetation.",
+    "environmental_severity": "moderate",
+    "reason": "The detected major construction of a large commercial building complex with paved areas matches the approved new_construction permit for commercial use on file for PARCEL-7743."
+  },
+  {
+    "pair_id": "test_2_0000_0512",
+    "final_decision": "ESCALATE",
+    "confidence": 99,
+    "change_description": "The area was completely transformed from a natural landscape with a winding dry riverbed/sandy wash surrounded by trees into a residential subdivision with multiple houses, paved roads, driveways, and landscaped lots.",
+    "change_severity": "major",
+    "environmental_notes": "Significant vegetation and tree cover was lost, with natural undeveloped land featuring a sandy riverbed/wash and surrounding forest converted to a residential subdivision with roads, rooftops, and paved surfaces. This represents a near-complete transformation of a natural landscape to hardened urban infrastructure, though this is a rough visual estimate based on satellite imagery alone.",
+    "environmental_severity": "high",
+    "reason": "A major transformation of natural land into a full residential subdivision with roads, houses, and infrastructure has occurred with absolutely no permit on file, representing a severe unauthorized development requiring immediate escalation."
+  },
+  {
+    "pair_id": "test_121_0768_0256",
+    "final_decision": "ESCALATE",
+    "confidence": 82,
+    "change_description": "The previously undeveloped/rural land with a simple road intersection has been transformed into a large-scale development featuring multiple buildings, parking lots, paved roads, and what appears to be a residential or mixed-use complex with several structures of varying sizes.",
+    "change_severity": "major",
+    "environmental_notes": "Significant vegetation and scrubland were cleared to construct multiple buildings, parking lots, and paved roadways, representing a substantial conversion of natural land to impervious surfaces. This is a rough visual estimate, but the loss of natural cover appears extensive across most of the parcel.",
+    "environmental_severity": "high",
+    "reason": "A large-scale development with multiple buildings and infrastructure has been constructed on previously undeveloped land, but the only permit on file is a pending (not approved) building *extension* permit, which does not authorize new large-scale ground-up construction, making this high-severity unauthorized development requiring urgent escalation."
+  }
+]
