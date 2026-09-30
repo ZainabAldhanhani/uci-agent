@@ -35,6 +35,20 @@ Tested end-to-end across 6 real image pairs: 3 ESCALATE / 2 AUTO_CLEAR / 1 FLAG_
 
 ![Dashboard wireframe](dashboard_wireframe.png)
 
+## Example Output
+
+**Before/after change detection:**
+
+![Before and after comparison](comparison_test_2_0000_0000.png)
+
+**Decision breakdown across the 6 test cases:**
+
+![Decision chart](decision_chart.png)
+
+**Environmental severity breakdown:**
+
+![Environmental impact chart](environmental_chart.png)
+
 ## Author
 
 Zainab Aldhanhani — built for Presight's AI Engineer Graduate Program Innovation Challenge.
